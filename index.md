@@ -1,14 +1,21 @@
 ---
-layout: index 
+layout: index
 title: Inicio
 ---
 
-{% include index/jumbotron.html title="Biblioteca Digital" subtitle="Explora nuestra colección de libros históricos" objectid="id_de_un_libro_ejemplo" %}
+{% include index/jumbotron.html title=site.title subtitle=site.tagline objectid="coll001" %}
 
 <div class="container mt-4">
-  <p class="lead">Bienvenido a nuestro repositorio. Aquí encontrarás una selección curada de libros digitalizados, organizados por fecha, temática y autor. Utiliza el menú para navegar o busca un título específico.</p>
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h2 class="mt-4">Bienvenido al Repositorio</h2>
+            <p class="lead">Esta colección contiene 40 volúmenes digitalizados. Aquí podrás consultar documentos históricos, visualizar portadas y filtrar por fechas o temáticas.</p>
+        </div>
+    </div>
 </div>
 
-{% include index/carousel.html title="Libros Destacados" height=500 %}
+{% include index/carousel.html title="Muestra de la Colección" height=500 %}
 
 {% include index/collection-links.html %}
+
+{% include index/subjects.html title="Explorar por Temas" %}
