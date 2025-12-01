@@ -63,3 +63,50 @@ exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md,
 # compress CSS output
 sass:
   style: compressed
+##########
+# FEATURED CONTENT
+#
+# Coloca aquí los 'objectid' de 3 o 4 libros que quieras que salgan en el carrusel de inicio.
+# Deben ser idénticos a los que están en tu CSV (columna objectid).
+featured-content:
+  - objectid
+  - coll001
+  - coll002
+  - coll003
+  - coll004
+  - coll005
+  - coll006
+  - coll007
+  - coll008
+  - coll009
+  - coll010
+  - coll011
+  - coll012
+  - coll013
+  - coll014
+  - coll015
+  - coll016
+  - coll017
+  - coll018
+  - coll019
+  - coll020
+  - coll021
+  - coll022
+  - coll023
+  - coll024
+  - coll025
+  - coll026
+  - coll027
+  - coll028
+  - coll029
+  - coll030
+  - coll031
+  - coll032
+  - coll033
+  - coll034
+  - coll035
+  - coll036
+  - coll037
+  - coll038
+  - coll039
+  - coll040
