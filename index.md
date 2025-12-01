@@ -8,7 +8,7 @@ title: Inicio
 <div class="container mt-4">
     <div class="row">
         <div class="col-md-12 text-center">
-            <h2 class="mt-4">Bienvenido al Repositorio</h2>
+            <h2 class="mt-4">Bienvenido a CABARI</h2>
             <p class="lead">Esta colección contiene 40 volúmenes digitalizados. Aquí podrás consultar documentos históricos, visualizar portadas y filtrar por fechas o temáticas.</p>
         </div>
     </div>
