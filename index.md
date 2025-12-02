@@ -48,7 +48,7 @@ title: Inicio
     }
 
     .book-img-container {
-        height: 320px; /* Altura fija para que todas las portadas se vean iguales */
+        height: 150px; /* Altura fija para que todas las portadas se vean iguales */
         overflow: hidden;
         background-color: #f0f0f0;
         position: relative;
