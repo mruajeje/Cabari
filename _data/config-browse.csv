@@ -1,5 +1,5 @@
-field,display_name,btn,hidden,sort_name
-date,Date,,,Date
-creator,Creator,,,
-subject,,true
-location,,true
+field,display_name,btn_color
+proposito,Propósito de Lectura,info
+temporalidad,Valor Canónico,primary
+subject,Temas,success
+creator,Autores,warning
