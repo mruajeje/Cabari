@@ -1,5 +1,5 @@
-field,display_name,btn_color
-proposito,Propósito de Lectura,info
+field,display_name,btn_color,filter
+proposito,Propósito de Lectura,info,true
 temporalidad,Valor Canónico,primary
 subject,Temas,success
 creator,Autores,warning
