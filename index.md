@@ -91,22 +91,22 @@ title: Inicio
         </div>
     </div>
     
-    <div class="row mt-5">
-        <div class="col-md-6 mb-4">
-            <div class="feature-box text-center">
-                <h3 class="h2">Lectura de Utilidad</h3>
-                <p>Obras de autoayuda, finanzas y psicología para tu desarrollo personal.</p>
-                <a href="{{ site.baseurl }}/browse.html#proposito=UTILIDAD" class="text-dark font-weight-bold">Ver libros de Utilidad →</a>
-            </div>
-        </div>
-        <div class="col-md-6 mb-4">
-            <div class="feature-box text-center">
-                <h3 class="h2">Lectura de Evasión</h3>
-                <p>Sumérgete en mundos de fantasía, misterio y grandes clásicos de la literatura.</p>
-                <a href="{{ site.baseurl }}/browse.html#proposito=EVASIÓN" class="text-dark font-weight-bold">Ver libros de Evasión →</a>
-            </div>
+<div class="row mt-5">
+    <div class="col-md-6 mb-4">
+        <div class="feature-box text-center">
+            <h3 class="h2">Lectura de Utilidad</h3>
+            <p>Obras de autoayuda, finanzas y psicología para tu desarrollo personal.</p>
+            <a href="{{ site.baseurl }}/browse.html#UTILIDAD" class="btn btn-sm btn-dark mt-2">Ver libros de Utilidad</a>
         </div>
     </div>
+    <div class="col-md-6 mb-4">
+        <div class="feature-box text-center">
+            <h3 class="h2">Lectura de Evasión</h3>
+            <p>Sumérgete en mundos de fantasía, misterio y grandes clásicos de la literatura.</p>
+            <a href="{{ site.baseurl }}/browse.html#EVASIÓN" class="btn btn-sm btn-dark mt-2">Ver libros de Evasión</a>
+        </div>
+    </div>
+</div>
 </div>
 
 <div class="container mt-5">
