@@ -1,9 +1,8 @@
 display_name,stub,dropdown_parent
-Home,/
-Browse,/browse.html
-Subjects,/subjects.html
-Locations,/locations.html
-Map,/map.html
-Timeline,/timeline.html
-Data,/data.html
-About,/about.html
+Inicio,index.html,
+Catálogo,browse.html,
+Explorar por Propósito,,
+Utilidad,browse.html#proposito=UTILIDAD,Explorar por Propósito
+Evasión,browse.html#proposito=EVASIÓN,Explorar por Propósito
+Noticias,news.html,
+Sobre nosotros,about.html,
