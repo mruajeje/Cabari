@@ -2,7 +2,7 @@ display_name,stub,dropdown_parent
 Inicio,index.html,
 Catálogo,browse.html,
 Explorar por Propósito,,
-Utilidad,browse.html#proposito=UTILIDAD,Explorar por Propósito
-Evasión,browse.html#proposito=EVASIÓN,Explorar por Propósito
+Utilidad,browse.html#UTILIDAD,Explorar por Propósito
+Evasión,browse.html#EVASIÓN,Explorar por Propósito
 Noticias,news.html,
 Sobre nosotros,about.html,
