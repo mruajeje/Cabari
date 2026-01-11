@@ -1,17 +1,15 @@
-/* Forzar 5 columnas en el catálogo */
+/* Ajuste para 4 columnas en el catálogo de CABARI */
 @media (min-width: 992px) {
     #browse-items .item {
-        flex: 0 0 20% !important;
-        max-width: 20% !important;
+        flex: 0 0 25% !important;
+        max-width: 25% !important;
+        padding: 10px;
     }
 }
 
-/* Imágenes más pequeñas y ajustadas */
+/* Ajuste de imágenes para que no se vean gigantes */
 #browse-items .card-img-top {
-    height: 160px !important; 
+    height: 250px !important; 
     object-fit: contain !important;
-    padding: 10px;
-    background: #fff;
+    background: #f8f9fa;
 }
-
-#browse-items .card-title { font-size: 0.8rem !important; }
