@@ -30,7 +30,7 @@ permalink: /about.html
 
 <div class="about-header">
     <h1 class="display-4">CABARI: Biblioteca Virtual</h1>
-    <p class="lead">Un proyecto de Maria Rives, Pablo Barrera y Lucía Castaño.</p>
+    <p class="lead">Un proyecto de María Rives, Pablo Barrera y Lucía Castaño.</p>
 </div>
 
 <div class="row">
