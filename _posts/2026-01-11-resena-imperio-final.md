@@ -7,7 +7,11 @@ image: /assets/img/nacidosdelabruma2.jpg
 
 Brandon Sanderson revoluciona el género fantástico con *El Imperio Final*, la primera entrega de la saga *Nacidos de la Bruma (Mistborn)*. Esta obra destaca por un planteamiento original: ¿qué pasaría si el héroe de las profecías fallara y el villano gobernara durante mil años?
 
-<img src="{{ site.baseurl }}/assets/img/nacidosdelabruma1.jpg" style="width: 250px; display: block; margin: 0 auto; border-radius: 5px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+<div class="text-center my-4">
+    <img src="{{ site.baseurl }}/assets/img/nacidosdelabruma1.jpg" style="width: 250px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <p><small>Portada oficial del libro</small></p>
+</div>
+
 
 <p class="text-center mt-2 small text-muted">Portada oficial de El Imperio Final (Brandon Sanderson)</p>
 
