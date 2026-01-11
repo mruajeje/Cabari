@@ -2,12 +2,12 @@
 layout: news
 title: "Percy Jackson y el ladrón del rayo: La reinvención moderna del héroe clásico"
 author: Maria Rives Puertas
-image: /objects/coll038.jpg
+image: /assets/img/percy2.jpg
 ---
 
 **Veredicto: Una obra maestra del género juvenil.** Si buscas una aventura que te atrape desde la primera página y no te suelte hasta el final, *El ladrón del rayo* es tu próxima lectura obligatoria. Rick Riordan ha creado un refugio literario para cualquiera que alguna vez se haya sentido diferente.
 
-<img src="{{ site.baseurl }}/objects/coll038.jpg" style="width: 250px; display: block; margin: 0 auto; border-radius: 5px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+<img src="{{ site.baseurl }}/assets/img/percy1.jpg" style="width: 300px; display: block; margin: 0 auto; border-radius: 10px;">
 
 <p class="text-center mt-2 small text-muted">Portada de El ladrón del rayo (Rick Riordan)</p>
 
