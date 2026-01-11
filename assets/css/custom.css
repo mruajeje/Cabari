@@ -1,0 +1,17 @@
+/* Forzar 5 columnas en el catálogo */
+@media (min-width: 992px) {
+    #browse-items .item {
+        flex: 0 0 20% !important;
+        max-width: 20% !important;
+    }
+}
+
+/* Imágenes más pequeñas y ajustadas */
+#browse-items .card-img-top {
+    height: 160px !important; 
+    object-fit: contain !important;
+    padding: 10px;
+    background: #fff;
+}
+
+#browse-items .card-title { font-size: 0.8rem !important; }
