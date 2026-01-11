@@ -1,8 +1,10 @@
 display_name,stub,dropdown_parent
 Inicio,index.html,
 Catálogo,browse.html,
-Explorar por Propósito,,
-Utilidad,browse.html#UTILIDAD,Explorar por Propósito
-Evasión,browse.html#EVASIÓN,Explorar por Propósito
+Géneros,,
+Fantasía,browse.html#subject=Fantasía,Géneros
+Clásicos,browse.html#subject=Clásico,Géneros
+Romance,browse.html#subject=Romance,Géneros
+No Ficción,browse.html#subject=No Ficción,Géneros
 Noticias,news.html,
 Sobre nosotros,about.html,
