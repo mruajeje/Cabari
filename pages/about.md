@@ -52,7 +52,7 @@ permalink: /about.html
         <div class="team-card">
             <h3 class="h4 mb-4">El Equipo</h3>
             <ul class="list-unstyled">
-                <li class="mb-3"><strong>Maria Rives Puertas</strong><br><small class="text-muted">Ingeniería Multimedia</small></li>
+                <li class="mb-3"><strong>María Rives Puertas</strong><br><small class="text-muted">Ingeniería Multimedia</small></li>
                 <li class="mb-3"><strong>Pablo Barrera Mora</strong><br><small class="text-muted">Ingeniería Multimedia</small></li>
                 <li class="mb-3"><strong>Lucía Castaño Serrano</strong><br><small class="text-muted">Ingeniería Multimedia</small></li>
             </ul>
