@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: page
 title: "Reseña de 'Fabricante de Lágrimas': El fenómeno gótico de Erin Doom"
 author: Lucía Castaño Serrano
 image: /assets/img/fabricante2.jpg
@@ -9,7 +9,6 @@ Nica y Rigel crecieron en el orfanato Grave, un lugar donde las leyendas eran la
 
 <div class="text-center my-4">
     <img src="{{ site.baseurl }}/assets/img/fabricante1.jpg" style="width: 250px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-    <p><small>Portada oficial del libro</small></p>
 </div>
 ### La trama: Entre el trauma y la esperanza
 La historia comienza en el orfanato Grave, un entorno hostil donde los niños crecen privados de afecto. Nica, una joven de espíritu delicado, ha sobrevivido gracias a su capacidad de encontrar belleza en lo pequeño. Su vida cambia cuando los Milligan deciden adoptarla. Sin embargo, no irá sola: Rigel, el chico más brillante y conflictivo del centro, también es acogido por la misma familia.

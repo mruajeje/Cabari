@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: page
 title: "El Imperio Final: Siempre hay otro secreto"
 author: Pablo Barrera Mora
 image: /assets/img/nacidosdelabruma2.jpg
@@ -9,11 +9,9 @@ Brandon Sanderson revoluciona el género fantástico con *El Imperio Final*, la 
 
 <div class="text-center my-4">
     <img src="{{ site.baseurl }}/assets/img/nacidosdelabruma1.jpg" style="width: 250px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-    <p><small>Portada oficial del libro</small></p>
 </div>
 
 
-<p class="text-center mt-2 small text-muted">Portada oficial de El Imperio Final (Brandon Sanderson)</p>
 
 ### ¿Por qué deberías leer esta novela?
 Si buscas una lectura que se aleje de los clichés tradicionales de la fantasía medieval, este libro es para ti. Sanderson logra un equilibrio perfecto entre la acción trepidante y una construcción de mundo (*world-building*) coherente:

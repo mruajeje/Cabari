@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: page
 title: "Percy Jackson y el ladrón del rayo: La reinvención moderna del héroe clásico"
 author: Maria Rives Puertas
 image: /assets/img/percy2.jpg
@@ -8,11 +8,9 @@ image: /assets/img/percy2.jpg
 **Veredicto: Una obra maestra del género juvenil.** Si buscas una aventura que te atrape desde la primera página y no te suelte hasta el final, *El ladrón del rayo* es tu próxima lectura obligatoria. Rick Riordan ha creado un refugio literario para cualquiera que alguna vez se haya sentido diferente.
 
 <div class="text-center my-4">
-    <img src="{{ site.baseurl }}/assets/img/percy.jpg" style="width: 250px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-    <p><small>Portada oficial del libro</small></p>
+    <img src="{{ site.baseurl }}/assets/img/percy1.jpg" style="width: 250px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 </div>
 
-<p class="text-center mt-2 small text-muted">Portada de El ladrón del rayo (Rick Riordan)</p>
 
 ### El origen: Una historia de amor paternal
 Percy Jackson no nació en una editorial, sino en la habitación de un niño. Rick Riordan inventó esta historia para su hijo, Haley, quien había sido diagnosticado con TDAH y dislexia. 

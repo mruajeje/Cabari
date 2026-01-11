@@ -5,19 +5,20 @@ permalink: /news.html
 ---
 
 <div class="container mt-4">
-    <p>Bienvenidos a la sección de actualidad de <strong>CABARI</strong>.</p>
+    <p class="lead text-center">Críticas literarias y novedades de la colección <strong>CABARI</strong>.</p>
     
     <div class="row mt-5">
         {% for post in site.posts %}
-        <div class="col-md-6 mb-4">
-            <div class="card shadow-sm">
-                {% if post.image %}
-                <img src="{{ post.image | relative_url }}" class="card-img-top" style="height: 200px; object-fit: cover;">
+        <div class="col-md-4 mb-4"> <div class="card h-100 shadow-sm border-0"> {% if post.image %}
+                <div style="height: 200px; overflow: hidden;"> <img src="{{ post.image | relative_url }}" class="card-img-top" style="height: 100%; object-fit: cover;" alt="{{ post.title }}">
+                </div>
                 {% endif %}
-                <div class="card-body">
-                    <h2 class="h5">{{ post.title }}</h2>
-                    <p class="small text-muted">Por {{ post.author }}</p>
-                    <a href="{{ post.url | relative_url }}" class="btn btn-dark btn-sm">Leer más</a>
+                <div class="card-body d-flex flex-column">
+                    <h2 class="h5 card-title font-weight-bold">{{ post.title }}</h2>
+                    <p class="small text-muted mb-3">Por {{ post.author }}</p>
+                    <p class="card-text small">{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
+                    <div class="mt-auto"> <a href="{{ post.url | relative_url }}" class="btn btn-dark btn-sm btn-block">Leer reseña</a>
+                    </div>
                 </div>
             </div>
         </div>

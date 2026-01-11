@@ -1,8 +1,8 @@
 ##########
 # URL VARIABLES
 ##########
-url: https://mruajeje.github.io
-baseurl: /Cabari
+url: "https://mruajeje.github.io"
+baseurl: "/Cabari"
 source-code: https://github.com/mruajeje/Cabari
 
 ##########
