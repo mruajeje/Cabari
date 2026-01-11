@@ -2,9 +2,9 @@ display_name,stub,dropdown_parent
 Inicio,index.html,
 Catálogo,browse.html,
 Géneros,,
-Fantasía,browse.html#subject=Fantasía,Géneros
-Clásicos,browse.html#subject=Clásico,Géneros
-Romance,browse.html#subject=Romance,Géneros
-No Ficción,browse.html#subject=No Ficción,Géneros
+Fantasía,browse.html#Fantasía,Géneros
+Clásicos,browse.html#Clásico,Géneros
+Romance,browse.html#Romance,Géneros
+No Ficción,browse.html#No Ficción,Géneros
 Noticias,news.html,
 Sobre nosotros,about.html,
