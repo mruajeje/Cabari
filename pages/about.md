@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Sobre Nosotros
+permalink: /about.html
 ---
 
 <style>
