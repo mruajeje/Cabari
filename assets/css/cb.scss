@@ -5,13 +5,13 @@
 ---
 @charset "utf-8";
 
-/* base variables pulled from theme.yml */
+
 $base-font-family: {{ site.data.theme.base-font-family | default: '""' }};
 $base-font-size: {{ site.data.theme.base-font-size | default: '""' }};
 $text-color: {{ site.data.theme.text-color | default: '""' }};
 $link-color: {{ site.data.theme.link-color | default: '""' }};
 
-/* theme colors pulled from config-theme-colors */
+
 {% assign btns = site.data.config-theme-colors | where_exp: "item","item.color != nil" %}
 {% if btns != empty %}
 {% for btn in btns %}

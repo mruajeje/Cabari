@@ -16,21 +16,19 @@ author: "María Rives Puertas, Lucía Castaño Serrano, Pablo Barrera Mora"
 ##########
 # COLLECTION SETTINGS
 ##########
-# IMPORTANTE: Si tu archivo en la carpeta _data se llama metadata.csv, pon 'metadata'.
-# Si se llama metadata-template.csv, deja 'metadata-template'.
+
 metadata: metadata
 
 ##########
 # BUILD SETTINGS 
 ##########
 encoding: "utf-8"
-exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md, CONTRIBUTING.md]
+exclude: [_data, docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md, CONTRIBUTING.md]
 sass:
   style: compressed
 
 ##########
 # FEATURED CONTENT
-# Solo ponemos 4 para que el carrusel de inicio no explote
 ##########
 featured-content:
   - coll001
@@ -73,5 +71,5 @@ featured-content:
   - coll038
   - coll039
   - coll040
-# Añadimos la línea para que reconozca tu diseño de 5 columnas si creas el archivo
+
 custom-css: assets/css/custom.css

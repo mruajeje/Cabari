@@ -1,4 +1,4 @@
-/* Ajuste para 4 columnas en el catálogo de CABARI */
+
 @media (min-width: 992px) {
     #browse-items .item {
         flex: 0 0 25% !important;
@@ -7,7 +7,7 @@
     }
 }
 
-/* Ajuste de imágenes para que no se vean gigantes */
+
 #browse-items .card-img-top {
     height: 250px !important; 
     object-fit: contain !important;
