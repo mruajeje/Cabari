@@ -28,8 +28,7 @@ title: Inicio
 </div>
 <div class="container">
     <div class="row">
-        {% assign items = site.data[site.metadata] %}
-        {% for item in items limit:8 %}
+        {% for item in site.data.metadata limit:8 %}
         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="book-card text-center">
                 <a href="{{ '/item.html' | relative_url }}?id={{ item.objectid }}">
@@ -38,7 +37,7 @@ title: Inicio
                     </div>
                 </a>
                 <h6 class="mt-2 font-weight-bold">{{ item.title }}</h6>
-                <p class="small text-muted">{{ item.creator }}</p>
+                <p class="small text-muted">{{ item.author | default: item.creator }}</p>
             </div>
         </div>
         {% endfor %}
