@@ -20,10 +20,10 @@ title: Inicio
 <div class="container text-center mb-5">
     <h2 class="h5 text-uppercase mb-3">Filtrar por Género</h2>
     <div class="d-flex flex-wrap justify-content-center">
-        <a href="{{ site.baseurl }}/browse.html#q=Fantasía" class="pill-cat">Fantasía</a>
-        <a href="{{ site.baseurl }}/browse.html#q=Clásico" class="pill-cat">Clásicos</a>
-        <a href="{{ site.baseurl }}/browse.html#q=Romance" class="pill-cat">Romance</a>
-        <a href="{{ site.baseurl }}/browse.html#q=Misterio" class="pill-cat">Misterio</a>
+        <a href="{{ site.baseurl }}/browse.html#Fantasía" class="pill-cat">Fantasía</a>
+        <a href="{{ site.baseurl }}/browse.html#Clásico" class="pill-cat">Clásicos</a>
+        <a href="{{ site.baseurl }}/browse.html#Romance" class="pill-cat">Romance</a>
+        <a href="{{ site.baseurl }}/browse.html#Misterio" class="pill-cat">Misterio</a>
     </div>
 </div>
 
