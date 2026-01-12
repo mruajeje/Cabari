@@ -26,19 +26,18 @@ title: Inicio
         <a href="{{ site.baseurl }}/browse.html#Misterio" class="pill-cat">Misterio</a>
     </div>
 </div>
-
 <div class="container">
     <div class="row">
         {% assign items = site.data[site.metadata] %}
         {% for item in items limit:8 %}
         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="book-card text-center">
-                <a href="{{ site.baseurl }}/items/{{ item.objectid }}.html">
+                <a href="{{ '/item.html' | relative_url }}?id={{ item.objectid }}">
                     <div class="book-img-container">
-                        <img class="book-img-top" src="{{ site.baseurl }}/objects/{{ item.objectid }}.jpg">
+                        <img class="book-img-top shadow-sm" src="{{ '/objects/' | relative_url }}{{ item.objectid }}.jpg" alt="{{ item.title }}">
                     </div>
                 </a>
-                <h6 class="mt-2">{{ item.title }}</h6>
+                <h6 class="mt-2 font-weight-bold">{{ item.title }}</h6>
                 <p class="small text-muted">{{ item.creator }}</p>
             </div>
         </div>
