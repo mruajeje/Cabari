@@ -30,14 +30,14 @@ title: Inicio
     <div class="row">
         {% for item in site.data.metadata limit:8 %}
         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-            <div class="book-card text-center">
+            <div class="book-card text-center h-100">
                 <a href="{{ '/item.html' | relative_url }}?id={{ item.objectid }}">
                     <div class="book-img-container">
-                        <img class="book-img-top shadow-sm" src="{{ '/objects/' | relative_url }}{{ item.objectid }}.jpg" alt="{{ item.title }}">
+                        <img class="book-img-top shadow-sm img-fluid" src="{{ '/objects/' | relative_url }}{{ item.objectid }}.jpg" alt="{{ item.title }}">
                     </div>
                 </a>
                 <h6 class="mt-2 font-weight-bold">{{ item.title }}</h6>
-                <p class="small text-muted">{{ item.author | default: item.creator }}</p>
+                <p class="small text-muted">{{ item.creator }}</p>
             </div>
         </div>
         {% endfor %}
