@@ -6,10 +6,9 @@ Fantasía,browse.html#Fantasía,Géneros
 Clásicos,browse.html#Clásico,Géneros
 Romance,browse.html#Romance,Géneros
 No Ficción,browse.html#No Ficción,Géneros
-Noticias,news.html,
-Sobre nosotros,about.html,
-
 display_name,url,parent
 Propósito,,
 Formación y Crecimiento,browse.html#Formación,Propósito
 Entretenimiento y Evasión,browse.html#Evasión,Propósito
+Noticias,news.html,
+Sobre nosotros,about.html,
